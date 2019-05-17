@@ -74,6 +74,11 @@
 		202EFA2D228DC2A3001517A1 /* Santa Clara.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA29228DC2A3001517A1 /* Santa Clara.pdf */; };
 		202EFA2E228DC2A3001517A1 /* dallas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA2A228DC2A3001517A1 /* dallas.pdf */; };
 		202EFA2F228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA2B228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf */; };
+		202EFA34228F0654001517A1 /* Gudaljara.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA30228F0652001517A1 /* Gudaljara.pdf */; };
+		202EFA35228F0654001517A1 /* Queretaro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA31228F0652001517A1 /* Queretaro.pdf */; };
+		202EFA36228F0654001517A1 /* Denver.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA32228F0653001517A1 /* Denver.pdf */; };
+		202EFA37228F0654001517A1 /* los angeles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA33228F0654001517A1 /* los angeles.pdf */; };
+		202EFA39228F09B0001517A1 /* San Antonio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA38228F09B0001517A1 /* San Antonio.pdf */; };
 		20324D0C21E455A1002FA449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20324D0B21E455A1002FA449 /* ViewController.swift */; };
 		20324D0F21E45ACA002FA449 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20324D0E21E45ACA002FA449 /* DashboardViewController.swift */; };
 		20324D1121E4773D002FA449 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20324D1021E4773D002FA449 /* DashboardTableViewCell.swift */; };
@@ -208,6 +213,11 @@
 		202EFA29228DC2A3001517A1 /* Santa Clara.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Santa Clara.pdf"; sourceTree = "<group>"; };
 		202EFA2A228DC2A3001517A1 /* dallas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dallas.pdf; sourceTree = "<group>"; };
 		202EFA2B228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Phoenix_PDF_Exported_01.pdf; sourceTree = "<group>"; };
+		202EFA30228F0652001517A1 /* Gudaljara.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gudaljara.pdf; sourceTree = "<group>"; };
+		202EFA31228F0652001517A1 /* Queretaro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Queretaro.pdf; sourceTree = "<group>"; };
+		202EFA32228F0653001517A1 /* Denver.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Denver.pdf; sourceTree = "<group>"; };
+		202EFA33228F0654001517A1 /* los angeles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "los angeles.pdf"; sourceTree = "<group>"; };
+		202EFA38228F09B0001517A1 /* San Antonio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "San Antonio.pdf"; sourceTree = "<group>"; };
 		20324D0A21E455A1002FA449 /* Agenda_CTDO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Agenda_CTDO-Bridging-Header.h"; sourceTree = "<group>"; };
 		20324D0B21E455A1002FA449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20324D0E21E45ACA002FA449 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -312,6 +322,11 @@
 		1B1618EA1F8BC30E00542F97 /* LocationPDF */ = {
 			isa = PBXGroup;
 			children = (
+				202EFA38228F09B0001517A1 /* San Antonio.pdf */,
+				202EFA32228F0653001517A1 /* Denver.pdf */,
+				202EFA30228F0652001517A1 /* Gudaljara.pdf */,
+				202EFA33228F0654001517A1 /* los angeles.pdf */,
+				202EFA31228F0652001517A1 /* Queretaro.pdf */,
 				202EFA2A228DC2A3001517A1 /* dallas.pdf */,
 				202EFA28228DC2A2001517A1 /* MexicanCity.pdf */,
 				202EFA2B228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf */,
@@ -717,6 +732,7 @@
 				20238E49220BFE01008A8FAC /* TATA.pdf in Resources */,
 				1B8951211F8523FB00DE5017 /* Dinanath.png in Resources */,
 				1BDCB7DD1F838D0600A8ED0B /* Beth.png in Resources */,
+				202EFA34228F0654001517A1 /* Gudaljara.pdf in Resources */,
 				1B1618D71F8B7DED00542F97 /* JAMESMILLER.pdf in Resources */,
 				20AB3C64228C8061000F9317 /* launchImg.png in Resources */,
 				20238E43220A8203008A8FAC /* Paul1.png in Resources */,
@@ -746,6 +762,7 @@
 				1B8379231F8FADDA001DC3D8 /* TCS_USAA_Relationship.pdf in Resources */,
 				1B8379311F909D6C001DC3D8 /* Girish.png in Resources */,
 				20238E4B220D34E9008A8FAC /* TCS.pdf in Resources */,
+				202EFA39228F09B0001517A1 /* San Antonio.pdf in Resources */,
 				20A318F52259C4D500835877 /* Pearl.jpg in Resources */,
 				20238E45220A8203008A8FAC /* Imogene.png in Resources */,
 				202EFA2E228DC2A3001517A1 /* dallas.pdf in Resources */,
@@ -761,8 +778,11 @@
 				1BD91A2B1F97899E001C5E2F /* TCSChennai.png in Resources */,
 				1BDCB7DE1F838D0600A8ED0B /* Bonny.png in Resources */,
 				1BDCB7E41F838D0600A8ED0B /* Lakshman.png in Resources */,
+				202EFA35228F0654001517A1 /* Queretaro.pdf in Resources */,
+				202EFA36228F0654001517A1 /* Denver.pdf in Resources */,
 				1BDCB7DB1F838D0600A8ED0B /* Ananth Krishnan.png in Resources */,
 				1BD91A1D1F977DAA001C5E2F /* RahulSingh.jpg in Resources */,
+				202EFA37228F0654001517A1 /* los angeles.pdf in Resources */,
 				1B1618DA1F8B7DED00542F97 /* PAUL.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

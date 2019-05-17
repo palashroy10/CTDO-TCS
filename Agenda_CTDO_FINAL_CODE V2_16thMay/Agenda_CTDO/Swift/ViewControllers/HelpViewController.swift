@@ -42,10 +42,10 @@ class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        tcsNamesArray = ["Sreehari Pola", "Jerome Joseph Prakash", "Praveen Panneer", "Lakshman Akella"]
+        tcsNamesArray = ["Los Angeles", "Phoenix", "Santa Clara", "Denver", "Dallas", "San Antonio", "Guadalajara", "Queretaro", "Mexico City"]
         ibmNamesArray = ["Girish Ratnam", "Vikram Tare", "Anand Nair"]
         hclNamesArray = ["Rajesh Srivastava", "Seshagiri Vardhanapu", "Aiyappan Sundarraj"]
-        tcsMobNumArray = ["+(91) 9940418514", "+(91) 9840170213", "+(91) 9962544811", "+(91) 9581388881"]
+        tcsMobNumArray = ["Byju Kollon", "Shantaram", "Rakesh Kumar", "Pushkar Bharadwaj", "Ajit Mishra", "Shital Samant", "", "", "Ashul"]
         ibmMobNumArray = ["+(91) 9176071235", "+(91) 8888816978", "+1 (210) 540-6791"]
         hclMobNumArray = ["+1 (214) 531-8956", "+1 (973) 652-7098", "+1 (210) 551-1543"]
         
@@ -92,13 +92,23 @@ class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDe
         if segmentControl.selectedSegmentIndex == 0 {
             switch sender?.tag {
             case 0?:
-                contactNo = "919940418514"
+                contactNo = "dummy"
             case 1?:
-                contactNo = "919840170213"
+                contactNo = "dummy"
             case 2?:
-                contactNo = "919962544811"
+                contactNo = "dummy"
             case 3?:
-                contactNo = "919581388881"
+                contactNo = "dummy"
+            case 4?:
+                contactNo = "15135057517"
+            case 5?:
+                contactNo = "12106249179"
+            case 6?:
+                contactNo = "dummy"
+            case 7?:
+                contactNo = "dummy"
+            case 8?:
+                contactNo = "dummy"
             default:
                 break
             }

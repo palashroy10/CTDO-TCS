@@ -978,7 +978,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="7HL-HC-d2O">
-                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="WIF-2Q-9GK"/>
                                 </constraints>
@@ -1544,7 +1544,7 @@ Home Schedule About Us Executive Itinerary </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="Mf2-Gs-NnM">
-                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="170"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="N6S-eF-Pdd"/>
                                 </constraints>
@@ -1571,7 +1571,7 @@ Home Schedule About Us Executive Itinerary </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact numbers of onsite and offshore  TCS executives" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ts5-5E-zw3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact details of POC’s" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ts5-5E-zw3">
                                 <rect key="frame" x="72" y="74" width="293" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="8q9-uW-RG7"/>
@@ -1714,7 +1714,7 @@ Home Schedule About Us Executive Itinerary </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="EPe-0P-Qvb">
-                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="ROL-AF-Sfx"/>
                                 </constraints>
@@ -1820,7 +1820,7 @@ Home Schedule About Us Executive Itinerary </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="BGF-Ll-hpo">
-                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="115" id="A9h-9d-gc1"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="115" id="cLY-HZ-mya"/>
@@ -1998,7 +1998,7 @@ Home Schedule About Us Executive Itinerary </string>
                                 </connections>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="CiS-68-Lwk">
-                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="104"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRt-PR-aL5">
                                 <rect key="frame" x="11" y="35" width="41" height="35"/>
@@ -2710,17 +2710,17 @@ Home Schedule About Us Executive Itinerary </string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="SRu-ZO-bP5">
-                                <rect key="frame" x="273" y="34.5" width="85" height="22"/>
+                                <rect key="frame" x="247" y="31" width="111" height="29"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlf-nA-vte">
-                                        <rect key="frame" x="0.0" y="0.0" width="16" height="22"/>
+                                        <rect key="frame" x="0.0" y="3" width="29" height="23.5"/>
                                         <state key="normal" image="camera"/>
                                         <connections>
                                             <action selector="takePhoto:" destination="0Ur-mf-IO8" eventType="touchUpInside" id="cpb-FT-bOd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNl-rc-cjD">
-                                        <rect key="frame" x="69" y="0.0" width="16" height="22"/>
+                                        <rect key="frame" x="82" y="0.0" width="29" height="29"/>
                                         <state key="normal" image="upload"/>
                                         <connections>
                                             <action selector="uploadImageOne:" destination="0Ur-mf-IO8" eventType="touchUpInside" id="NDT-e2-tTM"/>
@@ -2732,14 +2732,14 @@ Home Schedule About Us Executive Itinerary </string>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGP-NR-aON">
-                                <rect key="frame" x="343" y="34.5" width="16" height="22"/>
+                                <rect key="frame" x="330" y="31" width="29" height="29"/>
                                 <state key="normal" image="upload"/>
                                 <connections>
                                     <action selector="uploadImageOne:" destination="0Ur-mf-IO8" eventType="touchUpInside" id="Flx-9k-KFj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOA-Zg-d8M">
-                                <rect key="frame" x="274" y="34.5" width="16" height="22"/>
+                                <rect key="frame" x="248" y="31" width="29" height="29"/>
                                 <state key="normal" image="camera"/>
                                 <connections>
                                     <action selector="takePhoto:" destination="0Ur-mf-IO8" eventType="touchUpInside" id="2gm-r0-kiB"/>

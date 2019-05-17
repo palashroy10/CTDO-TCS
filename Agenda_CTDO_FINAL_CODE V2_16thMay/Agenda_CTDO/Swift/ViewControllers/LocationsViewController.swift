@@ -19,8 +19,8 @@ class LocationsViewController: UIViewController, UITableViewDelegate, UITableVie
         // Do any additional setup after loading the view.
         
         
-        locationNamesArr = ["Dallas", "Mexico City", "Phoenix", "Santa Clara"]//, "Bengaluru", "Noida"
-        locationPDFArr = ["dallas.pdf", "MexicanCity.pdf", "Phoenix_PDF_Exported_01.pdf", "Santa Clara.pdf"]//"Bengaluru.pdf", "Noida.pdf"
+        locationNamesArr = ["Los Angeles", "Phoenix", "Santa Clara", "Denver", "Dallas", "San Antonio", "Guadalajara", "Queretaro", "Mexico City"]//, "Bengaluru", "Noida"
+        locationPDFArr = ["los angeles.pdf", "Phoenix_PDF_Exported_01.pdf", "Santa Clara.pdf", "Denver.pdf", "dallas.pdf", "San Antonio.pdf", "Gudaljara.pdf", "Queretaro.pdf", "MexicanCity.pdf"]//"Bengaluru.pdf", "Noida.pdf"
     }
     
     @IBAction func backBtnAction(_ sender: Any) {
