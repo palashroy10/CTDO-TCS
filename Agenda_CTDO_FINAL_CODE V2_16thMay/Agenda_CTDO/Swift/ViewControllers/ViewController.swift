@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController, UIGestureRecognizerDelegate {
     
@@ -85,10 +86,10 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let gesture = UIPanGestureRecognizer(target: self, action: #selector(ViewController.wasDragged(_:)))
-        continueImage.addGestureRecognizer(gesture)
-        continueImage.isUserInteractionEnabled = true
-        gesture.delegate = self
+//        let gesture = UIPanGestureRecognizer(target: self, action: #selector(ViewController.wasDragged(_:)))
+//        continueImage.addGestureRecognizer(gesture)
+//        continueImage.isUserInteractionEnabled = true
+//        gesture.delegate = self
         
     }
     
@@ -103,6 +104,10 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         swipeGesture.delegate = self
         pageNum = 0
         //animation()
+        continueButton.layer.borderWidth = 1.0
+        continueButton.layer.borderColor = UIColor.yellow.cgColor
+        continueButton.layer.cornerRadius = continueButton.frame.size.height / 2
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -135,7 +140,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     
    @objc func wasDragged(_ gestureRecognizer: UIPanGestureRecognizer) {
         if gestureRecognizer.state == .began || gestureRecognizer.state == .changed {
-            let translation = gestureRecognizer.translation(in: self.view)
+            _ = gestureRecognizer.translation(in: self.view)
             
             let y = continueButton.center.y
             let x = gestureRecognizer.location(in: continueImage).x + continueImage.frame.width/2

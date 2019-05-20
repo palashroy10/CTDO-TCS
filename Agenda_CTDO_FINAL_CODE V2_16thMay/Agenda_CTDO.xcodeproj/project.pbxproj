@@ -73,12 +73,12 @@
 		202EFA2C228DC2A3001517A1 /* MexicanCity.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA28228DC2A2001517A1 /* MexicanCity.pdf */; };
 		202EFA2D228DC2A3001517A1 /* Santa Clara.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA29228DC2A3001517A1 /* Santa Clara.pdf */; };
 		202EFA2E228DC2A3001517A1 /* dallas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA2A228DC2A3001517A1 /* dallas.pdf */; };
-		202EFA2F228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA2B228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf */; };
 		202EFA34228F0654001517A1 /* Gudaljara.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA30228F0652001517A1 /* Gudaljara.pdf */; };
 		202EFA35228F0654001517A1 /* Queretaro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA31228F0652001517A1 /* Queretaro.pdf */; };
 		202EFA36228F0654001517A1 /* Denver.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA32228F0653001517A1 /* Denver.pdf */; };
 		202EFA37228F0654001517A1 /* los angeles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA33228F0654001517A1 /* los angeles.pdf */; };
 		202EFA39228F09B0001517A1 /* San Antonio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA38228F09B0001517A1 /* San Antonio.pdf */; };
+		2031A05522929643007C339D /* Phoenix.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2031A05422929643007C339D /* Phoenix.pdf */; };
 		20324D0C21E455A1002FA449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20324D0B21E455A1002FA449 /* ViewController.swift */; };
 		20324D0F21E45ACA002FA449 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20324D0E21E45ACA002FA449 /* DashboardViewController.swift */; };
 		20324D1121E4773D002FA449 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20324D1021E4773D002FA449 /* DashboardTableViewCell.swift */; };
@@ -212,12 +212,12 @@
 		202EFA28228DC2A2001517A1 /* MexicanCity.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MexicanCity.pdf; sourceTree = "<group>"; };
 		202EFA29228DC2A3001517A1 /* Santa Clara.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Santa Clara.pdf"; sourceTree = "<group>"; };
 		202EFA2A228DC2A3001517A1 /* dallas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dallas.pdf; sourceTree = "<group>"; };
-		202EFA2B228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Phoenix_PDF_Exported_01.pdf; sourceTree = "<group>"; };
 		202EFA30228F0652001517A1 /* Gudaljara.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gudaljara.pdf; sourceTree = "<group>"; };
 		202EFA31228F0652001517A1 /* Queretaro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Queretaro.pdf; sourceTree = "<group>"; };
 		202EFA32228F0653001517A1 /* Denver.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Denver.pdf; sourceTree = "<group>"; };
 		202EFA33228F0654001517A1 /* los angeles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "los angeles.pdf"; sourceTree = "<group>"; };
 		202EFA38228F09B0001517A1 /* San Antonio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "San Antonio.pdf"; sourceTree = "<group>"; };
+		2031A05422929643007C339D /* Phoenix.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Phoenix.pdf; sourceTree = "<group>"; };
 		20324D0A21E455A1002FA449 /* Agenda_CTDO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Agenda_CTDO-Bridging-Header.h"; sourceTree = "<group>"; };
 		20324D0B21E455A1002FA449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20324D0E21E45ACA002FA449 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -325,11 +325,11 @@
 				202EFA38228F09B0001517A1 /* San Antonio.pdf */,
 				202EFA32228F0653001517A1 /* Denver.pdf */,
 				202EFA30228F0652001517A1 /* Gudaljara.pdf */,
+				2031A05422929643007C339D /* Phoenix.pdf */,
 				202EFA33228F0654001517A1 /* los angeles.pdf */,
 				202EFA31228F0652001517A1 /* Queretaro.pdf */,
 				202EFA2A228DC2A3001517A1 /* dallas.pdf */,
 				202EFA28228DC2A2001517A1 /* MexicanCity.pdf */,
-				202EFA2B228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf */,
 				202EFA29228DC2A3001517A1 /* Santa Clara.pdf */,
 			);
 			path = LocationPDF;
@@ -708,7 +708,6 @@
 				1BDCB7E81F838D0600A8ED0B /* sridharan.png in Resources */,
 				20E29AD92212A3F0006F9D21 /* Itinerary_MILLER_PAUL_EKAIBY.pdf in Resources */,
 				1B8951241F8523FB00DE5017 /* SridharanKrithivasan.png in Resources */,
-				202EFA2F228DC2A3001517A1 /* Phoenix_PDF_Exported_01.pdf in Resources */,
 				1B83791D1F8F746C001DC3D8 /* IBMlogo.png in Resources */,
 				1BDCB7EA1F838D0600A8ED0B /* Thomas.png in Resources */,
 				20238E48220BFE01008A8FAC /* James.png in Resources */,
@@ -774,6 +773,7 @@
 				1B1618D81F8B7DED00542F97 /* KIMBERLY.pdf in Resources */,
 				1BDCB7E31F838D0600A8ED0B /* Kimberly.png in Resources */,
 				1BD91A2C1F97899E001C5E2F /* TCSHyderabad.png in Resources */,
+				2031A05522929643007C339D /* Phoenix.pdf in Resources */,
 				39E12C7C1F99213700D6FF40 /* Venkatesan.png in Resources */,
 				1BD91A2B1F97899E001C5E2F /* TCSChennai.png in Resources */,
 				1BDCB7DE1F838D0600A8ED0B /* Bonny.png in Resources */,

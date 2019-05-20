@@ -20,7 +20,7 @@ class LocationsViewController: UIViewController, UITableViewDelegate, UITableVie
         
         
         locationNamesArr = ["Los Angeles", "Phoenix", "Santa Clara", "Denver", "Dallas", "San Antonio", "Guadalajara", "Queretaro", "Mexico City"]//, "Bengaluru", "Noida"
-        locationPDFArr = ["los angeles.pdf", "Phoenix_PDF_Exported_01.pdf", "Santa Clara.pdf", "Denver.pdf", "dallas.pdf", "San Antonio.pdf", "Gudaljara.pdf", "Queretaro.pdf", "MexicanCity.pdf"]//"Bengaluru.pdf", "Noida.pdf"
+        locationPDFArr = ["los angeles.pdf", "Phoenix.pdf", "Santa Clara.pdf", "Denver.pdf", "dallas.pdf", "San Antonio.pdf", "Gudaljara.pdf", "Queretaro.pdf", "MexicanCity.pdf"]//"Bengaluru.pdf", "Noida.pdf"
     }
     
     @IBAction func backBtnAction(_ sender: Any) {
