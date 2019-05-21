@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B1618D31F8B7DED00542F97 /* JAMES.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618CA1F8B7DED00542F97 /* JAMES.pdf */; };
-		1B1618D41F8B7DED00542F97 /* IMOGENE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618CB1F8B7DED00542F97 /* IMOGENE.pdf */; };
-		1B1618D51F8B7DED00542F97 /* DAVIDVINCENT.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618CC1F8B7DED00542F97 /* DAVIDVINCENT.PDF */; };
-		1B1618D61F8B7DED00542F97 /* HEATHER.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618CD1F8B7DED00542F97 /* HEATHER.pdf */; };
-		1B1618D71F8B7DED00542F97 /* JAMESMILLER.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618CE1F8B7DED00542F97 /* JAMESMILLER.pdf */; };
-		1B1618D81F8B7DED00542F97 /* KIMBERLY.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618CF1F8B7DED00542F97 /* KIMBERLY.pdf */; };
-		1B1618D91F8B7DED00542F97 /* LITTLE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618D01F8B7DED00542F97 /* LITTLE.pdf */; };
-		1B1618DA1F8B7DED00542F97 /* PAUL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618D11F8B7DED00542F97 /* PAUL.pdf */; };
-		1B1618DB1F8B7DED00542F97 /* RICHES.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1618D21F8B7DED00542F97 /* RICHES.pdf */; };
 		1B547F441F99BEFD00FA7DB4 /* AdibatlaInauguration.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B547F411F99BEFD00FA7DB4 /* AdibatlaInauguration.png */; };
 		1B547F451F99BEFD00FA7DB4 /* CSRActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B547F421F99BEFD00FA7DB4 /* CSRActivity.png */; };
 		1B547F461F99BEFD00FA7DB4 /* Townhalls.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B547F431F99BEFD00FA7DB4 /* Townhalls.png */; };
@@ -78,6 +69,14 @@
 		202EFA36228F0654001517A1 /* Denver.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA32228F0653001517A1 /* Denver.pdf */; };
 		202EFA37228F0654001517A1 /* los angeles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA33228F0654001517A1 /* los angeles.pdf */; };
 		202EFA39228F09B0001517A1 /* San Antonio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 202EFA38228F09B0001517A1 /* San Antonio.pdf */; };
+		203103172293E18300DC348F /* JOHNSINDHU SAJI 26MAY2019 BOM FRA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 203103112293E18200DC348F /* JOHNSINDHU SAJI 26MAY2019 BOM FRA.pdf */; };
+		203103182293E18300DC348F /* JOHNSINDHU SAJI 30MAY2019 PHX SJC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 203103122293E18300DC348F /* JOHNSINDHU SAJI 30MAY2019 PHX SJC.pdf */; };
+		203103192293E18300DC348F /* JOHNSINDHU SAJI 02JUN2019 SFO DEN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 203103132293E18300DC348F /* JOHNSINDHU SAJI 02JUN2019 SFO DEN.pdf */; };
+		2031031A2293E18300DC348F /* SINDHU SAJI JOHN 110619.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 203103142293E18300DC348F /* SINDHU SAJI JOHN 110619.pdf */; };
+		2031031B2293E18300DC348F /* JOHNSINDHU SAJI 28MAY2019 LAX PHX.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 203103152293E18300DC348F /* JOHNSINDHU SAJI 28MAY2019 LAX PHX.pdf */; };
+		2031031C2293E18300DC348F /* JOHNSINDHU SAJI 09JUN2019 SAT GDL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 203103162293E18300DC348F /* JOHNSINDHU SAJI 09JUN2019 SAT GDL.pdf */; };
+		20310321229404C200DC348F /* AccomodationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20310320229404C200DC348F /* AccomodationViewController.swift */; };
+		203103232294053200DC348F /* AccomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203103222294053200DC348F /* AccomDetailsViewController.swift */; };
 		2031A05522929643007C339D /* Phoenix.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2031A05422929643007C339D /* Phoenix.pdf */; };
 		20324D0C21E455A1002FA449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20324D0B21E455A1002FA449 /* ViewController.swift */; };
 		20324D0F21E45ACA002FA449 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20324D0E21E45ACA002FA449 /* DashboardViewController.swift */; };
@@ -110,7 +109,6 @@
 		20A318F52259C4D500835877 /* Pearl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20A318F32259C4D500835877 /* Pearl.jpg */; };
 		20A318F62259C4D500835877 /* Mitchel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20A318F42259C4D500835877 /* Mitchel.jpg */; };
 		20AB3C64228C8061000F9317 /* launchImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AB3C63228C8061000F9317 /* launchImg.png */; };
-		20E29AD92212A3F0006F9D21 /* Itinerary_MILLER_PAUL_EKAIBY.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 20E29AD82212A3F0006F9D21 /* Itinerary_MILLER_PAUL_EKAIBY.pdf */; };
 		39E12C7C1F99213700D6FF40 /* Venkatesan.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E12C791F99213600D6FF40 /* Venkatesan.png */; };
 		39E12C7D1F99213700D6FF40 /* PRK.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E12C7A1F99213700D6FF40 /* PRK.png */; };
 		39E12C7E1F99213700D6FF40 /* MuraliMenon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E12C7B1F99213700D6FF40 /* MuraliMenon.png */; };
@@ -146,15 +144,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B1618CA1F8B7DED00542F97 /* JAMES.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = JAMES.pdf; sourceTree = "<group>"; };
-		1B1618CB1F8B7DED00542F97 /* IMOGENE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IMOGENE.pdf; sourceTree = "<group>"; };
-		1B1618CC1F8B7DED00542F97 /* DAVIDVINCENT.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DAVIDVINCENT.PDF; sourceTree = "<group>"; };
-		1B1618CD1F8B7DED00542F97 /* HEATHER.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HEATHER.pdf; sourceTree = "<group>"; };
-		1B1618CE1F8B7DED00542F97 /* JAMESMILLER.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = JAMESMILLER.pdf; sourceTree = "<group>"; };
-		1B1618CF1F8B7DED00542F97 /* KIMBERLY.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = KIMBERLY.pdf; sourceTree = "<group>"; };
-		1B1618D01F8B7DED00542F97 /* LITTLE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LITTLE.pdf; sourceTree = "<group>"; };
-		1B1618D11F8B7DED00542F97 /* PAUL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PAUL.pdf; sourceTree = "<group>"; };
-		1B1618D21F8B7DED00542F97 /* RICHES.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RICHES.pdf; sourceTree = "<group>"; };
 		1B547F411F99BEFD00FA7DB4 /* AdibatlaInauguration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AdibatlaInauguration.png; sourceTree = "<group>"; };
 		1B547F421F99BEFD00FA7DB4 /* CSRActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CSRActivity.png; sourceTree = "<group>"; };
 		1B547F431F99BEFD00FA7DB4 /* Townhalls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Townhalls.png; sourceTree = "<group>"; };
@@ -217,6 +206,14 @@
 		202EFA32228F0653001517A1 /* Denver.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Denver.pdf; sourceTree = "<group>"; };
 		202EFA33228F0654001517A1 /* los angeles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "los angeles.pdf"; sourceTree = "<group>"; };
 		202EFA38228F09B0001517A1 /* San Antonio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "San Antonio.pdf"; sourceTree = "<group>"; };
+		203103112293E18200DC348F /* JOHNSINDHU SAJI 26MAY2019 BOM FRA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "JOHNSINDHU SAJI 26MAY2019 BOM FRA.pdf"; sourceTree = "<group>"; };
+		203103122293E18300DC348F /* JOHNSINDHU SAJI 30MAY2019 PHX SJC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "JOHNSINDHU SAJI 30MAY2019 PHX SJC.pdf"; sourceTree = "<group>"; };
+		203103132293E18300DC348F /* JOHNSINDHU SAJI 02JUN2019 SFO DEN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "JOHNSINDHU SAJI 02JUN2019 SFO DEN.pdf"; sourceTree = "<group>"; };
+		203103142293E18300DC348F /* SINDHU SAJI JOHN 110619.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SINDHU SAJI JOHN 110619.pdf"; sourceTree = "<group>"; };
+		203103152293E18300DC348F /* JOHNSINDHU SAJI 28MAY2019 LAX PHX.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "JOHNSINDHU SAJI 28MAY2019 LAX PHX.pdf"; sourceTree = "<group>"; };
+		203103162293E18300DC348F /* JOHNSINDHU SAJI 09JUN2019 SAT GDL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "JOHNSINDHU SAJI 09JUN2019 SAT GDL.pdf"; sourceTree = "<group>"; };
+		20310320229404C200DC348F /* AccomodationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccomodationViewController.swift; path = Agenda_CTDO/Swift/ViewControllers/AccomodationViewController.swift; sourceTree = SOURCE_ROOT; };
+		203103222294053200DC348F /* AccomDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccomDetailsViewController.swift; sourceTree = "<group>"; };
 		2031A05422929643007C339D /* Phoenix.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Phoenix.pdf; sourceTree = "<group>"; };
 		20324D0A21E455A1002FA449 /* Agenda_CTDO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Agenda_CTDO-Bridging-Header.h"; sourceTree = "<group>"; };
 		20324D0B21E455A1002FA449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -250,7 +247,6 @@
 		20A318F32259C4D500835877 /* Pearl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pearl.jpg; sourceTree = "<group>"; };
 		20A318F42259C4D500835877 /* Mitchel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mitchel.jpg; sourceTree = "<group>"; };
 		20AB3C63228C8061000F9317 /* launchImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImg.png; sourceTree = "<group>"; };
-		20E29AD82212A3F0006F9D21 /* Itinerary_MILLER_PAUL_EKAIBY.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Itinerary_MILLER_PAUL_EKAIBY.pdf; sourceTree = "<group>"; };
 		39E12C791F99213600D6FF40 /* Venkatesan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Venkatesan.png; sourceTree = "<group>"; };
 		39E12C7A1F99213700D6FF40 /* PRK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRK.png; sourceTree = "<group>"; };
 		39E12C7B1F99213700D6FF40 /* MuraliMenon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MuraliMenon.png; sourceTree = "<group>"; };
@@ -305,16 +301,12 @@
 		1B1618C91F8B7DED00542F97 /* Itinerary */ = {
 			isa = PBXGroup;
 			children = (
-				20E29AD82212A3F0006F9D21 /* Itinerary_MILLER_PAUL_EKAIBY.pdf */,
-				1B1618CA1F8B7DED00542F97 /* JAMES.pdf */,
-				1B1618CB1F8B7DED00542F97 /* IMOGENE.pdf */,
-				1B1618CC1F8B7DED00542F97 /* DAVIDVINCENT.PDF */,
-				1B1618CD1F8B7DED00542F97 /* HEATHER.pdf */,
-				1B1618CE1F8B7DED00542F97 /* JAMESMILLER.pdf */,
-				1B1618CF1F8B7DED00542F97 /* KIMBERLY.pdf */,
-				1B1618D01F8B7DED00542F97 /* LITTLE.pdf */,
-				1B1618D11F8B7DED00542F97 /* PAUL.pdf */,
-				1B1618D21F8B7DED00542F97 /* RICHES.pdf */,
+				203103132293E18300DC348F /* JOHNSINDHU SAJI 02JUN2019 SFO DEN.pdf */,
+				203103162293E18300DC348F /* JOHNSINDHU SAJI 09JUN2019 SAT GDL.pdf */,
+				203103112293E18200DC348F /* JOHNSINDHU SAJI 26MAY2019 BOM FRA.pdf */,
+				203103152293E18300DC348F /* JOHNSINDHU SAJI 28MAY2019 LAX PHX.pdf */,
+				203103122293E18300DC348F /* JOHNSINDHU SAJI 30MAY2019 PHX SJC.pdf */,
+				203103142293E18300DC348F /* SINDHU SAJI JOHN 110619.pdf */,
 			);
 			path = Itinerary;
 			sourceTree = "<group>";
@@ -521,6 +513,8 @@
 				20324D3E21E78680002FA449 /* LocationDetailsViewController.swift */,
 				20421458220324DD001448A0 /* NavController.swift */,
 				2042145A22054532001448A0 /* TranslateViewController.swift */,
+				20310320229404C200DC348F /* AccomodationViewController.swift */,
+				203103222294053200DC348F /* AccomDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -704,18 +698,16 @@
 				1B83791E1F8F746C001DC3D8 /* TATAlogo.png in Resources */,
 				20238E4F220D55AE008A8FAC /* USAATCSLocations.pdf in Resources */,
 				1B547F4A1F99BF3A00FA7DB4 /* Abhay.jpg in Resources */,
-				1B1618D31F8B7DED00542F97 /* JAMES.pdf in Resources */,
 				1BDCB7E81F838D0600A8ED0B /* sridharan.png in Resources */,
-				20E29AD92212A3F0006F9D21 /* Itinerary_MILLER_PAUL_EKAIBY.pdf in Resources */,
 				1B8951241F8523FB00DE5017 /* SridharanKrithivasan.png in Resources */,
 				1B83791D1F8F746C001DC3D8 /* IBMlogo.png in Resources */,
 				1BDCB7EA1F838D0600A8ED0B /* Thomas.png in Resources */,
 				20238E48220BFE01008A8FAC /* James.png in Resources */,
 				20238E4D220D559B008A8FAC /* Purpose4Life_Mobile.pdf in Resources */,
-				1B1618D61F8B7DED00542F97 /* HEATHER.pdf in Resources */,
 				1B8379331F909D6C001DC3D8 /* Prashanth.png in Resources */,
 				1BD91A2D1F97899E001C5E2F /* TCSPune.png in Resources */,
 				1BDCB7E21F838D0600A8ED0B /* James1.png in Resources */,
+				203103182293E18300DC348F /* JOHNSINDHU SAJI 30MAY2019 PHX SJC.pdf in Resources */,
 				1B83791C1F8F746C001DC3D8 /* HCLlogo.png in Resources */,
 				1B8379371F90BAF9001DC3D8 /* QuickGlance.pdf in Resources */,
 				1BDCB7EB1F838D0600A8ED0B /* TVVVPrasad.png in Resources */,
@@ -725,19 +717,16 @@
 				202EFA2C228DC2A3001517A1 /* MexicanCity.pdf in Resources */,
 				1B8379341F909D6C001DC3D8 /* Sreejit.png in Resources */,
 				1BDCB7E91F838D0600A8ED0B /* SureshMuthuswami.png in Resources */,
-				1B1618D91F8B7DED00542F97 /* LITTLE.pdf in Resources */,
 				39E12C801F993EF400D6FF40 /* Shital.jpg in Resources */,
 				1BD91A201F977DAA001C5E2F /* VijayHCL.jpg in Resources */,
 				20238E49220BFE01008A8FAC /* TATA.pdf in Resources */,
 				1B8951211F8523FB00DE5017 /* Dinanath.png in Resources */,
 				1BDCB7DD1F838D0600A8ED0B /* Beth.png in Resources */,
 				202EFA34228F0654001517A1 /* Gudaljara.pdf in Resources */,
-				1B1618D71F8B7DED00542F97 /* JAMESMILLER.pdf in Resources */,
 				20AB3C64228C8061000F9317 /* launchImg.png in Resources */,
 				20238E43220A8203008A8FAC /* Paul1.png in Resources */,
 				39EBCF141F81F83100B0390F /* LaunchScreen.storyboard in Resources */,
 				1B8379321F909D6C001DC3D8 /* Jon.png in Resources */,
-				1B1618D51F8B7DED00542F97 /* DAVIDVINCENT.PDF in Resources */,
 				39EBCF111F81F83100B0390F /* Assets.xcassets in Resources */,
 				1B547F441F99BEFD00FA7DB4 /* AdibatlaInauguration.png in Resources */,
 				39E12C8C1F99463A00D6FF40 /* QuickGlanceTownhall.pdf in Resources */,
@@ -753,6 +742,7 @@
 				20A318F62259C4D500835877 /* Mitchel.jpg in Resources */,
 				1B8951221F8523FB00DE5017 /* Rajanna.png in Resources */,
 				1BD91A1F1F977DAA001C5E2F /* ShivNadar.jpg in Resources */,
+				203103172293E18300DC348F /* JOHNSINDHU SAJI 26MAY2019 BOM FRA.pdf in Resources */,
 				39E12C8B1F99463A00D6FF40 /* QuickGlanceInauguration.pdf in Resources */,
 				1B8379301F909D6C001DC3D8 /* Dave.png in Resources */,
 				1BDCB7DC1F838D0600A8ED0B /* Antony.png in Resources */,
@@ -760,17 +750,18 @@
 				1BDCB7E01F838D0600A8ED0B /* David.png in Resources */,
 				1B8379231F8FADDA001DC3D8 /* TCS_USAA_Relationship.pdf in Resources */,
 				1B8379311F909D6C001DC3D8 /* Girish.png in Resources */,
+				2031031C2293E18300DC348F /* JOHNSINDHU SAJI 09JUN2019 SAT GDL.pdf in Resources */,
 				20238E4B220D34E9008A8FAC /* TCS.pdf in Resources */,
+				2031031B2293E18300DC348F /* JOHNSINDHU SAJI 28MAY2019 LAX PHX.pdf in Resources */,
+				203103192293E18300DC348F /* JOHNSINDHU SAJI 02JUN2019 SFO DEN.pdf in Resources */,
+				2031031A2293E18300DC348F /* SINDHU SAJI JOHN 110619.pdf in Resources */,
 				202EFA39228F09B0001517A1 /* San Antonio.pdf in Resources */,
 				20A318F52259C4D500835877 /* Pearl.jpg in Resources */,
 				20238E45220A8203008A8FAC /* Imogene.png in Resources */,
 				202EFA2E228DC2A3001517A1 /* dallas.pdf in Resources */,
 				1BD91A1E1F977DAA001C5E2F /* RajeshHCL.png in Resources */,
-				1B1618D41F8B7DED00542F97 /* IMOGENE.pdf in Resources */,
-				1B1618DB1F8B7DED00542F97 /* RICHES.pdf in Resources */,
 				1BD91A2F1F978A57001C5E2F /* TCSMexico.jpg in Resources */,
 				1BDCB7DF1F838D0600A8ED0B /* Christine.png in Resources */,
-				1B1618D81F8B7DED00542F97 /* KIMBERLY.pdf in Resources */,
 				1BDCB7E31F838D0600A8ED0B /* Kimberly.png in Resources */,
 				1BD91A2C1F97899E001C5E2F /* TCSHyderabad.png in Resources */,
 				2031A05522929643007C339D /* Phoenix.pdf in Resources */,
@@ -783,7 +774,6 @@
 				1BDCB7DB1F838D0600A8ED0B /* Ananth Krishnan.png in Resources */,
 				1BD91A1D1F977DAA001C5E2F /* RahulSingh.jpg in Resources */,
 				202EFA37228F0654001517A1 /* los angeles.pdf in Resources */,
-				1B1618DA1F8B7DED00542F97 /* PAUL.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,6 +800,7 @@
 			files = (
 				20324D3B21E71D7D002FA449 /* QuickGlanceViewController.swift in Sources */,
 				20324D2721E62FCC002FA449 /* AboutUSDetailViewController.swift in Sources */,
+				203103232294053200DC348F /* AccomDetailsViewController.swift in Sources */,
 				20324D4721E787EF002FA449 /* LocationTableViewCell.swift in Sources */,
 				20324D1121E4773D002FA449 /* DashboardTableViewCell.swift in Sources */,
 				20324D4321E7877E002FA449 /* ScheduleTableViewCell.swift in Sources */,
@@ -826,6 +817,7 @@
 				20324D2B21E63961002FA449 /* FeedbackViewController.swift in Sources */,
 				20324D4B21E7887C002FA449 /* QuickGlanceTableViewCell.swift in Sources */,
 				20324D3D21E720A6002FA449 /* ItineraryDetailsViewController.swift in Sources */,
+				20310321229404C200DC348F /* AccomodationViewController.swift in Sources */,
 				20421459220324DD001448A0 /* NavController.swift in Sources */,
 				20324D0C21E455A1002FA449 /* ViewController.swift in Sources */,
 				20324D2D21E70BC6002FA449 /* ExecutiveDetailsViewController.swift in Sources */,

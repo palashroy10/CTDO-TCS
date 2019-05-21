@@ -19,10 +19,10 @@ class ItineraryViewController: UIViewController, UITableViewDataSource, UITableV
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        peopleArray = ["James Syring ", "Paul Miller", "Imogene Goodman"]
-        peopleImageArray = ["James.png", "Paul.png", "Imogene.png"]
-        itinerayArray = ["Itinerary_MILLER_PAUL_EKAIBY.pdf", "Itinerary_MILLER_PAUL_EKAIBY.pdf", "Itinerary_MILLER_PAUL_EKAIBY.pdf"]
-        peopleDesignationArray = ["SVP, Enterprise Operations Support", "Director Global Service Delivery", "Enterprise Event Planner"]
+        peopleArray = ["BOM - FRA ", "LAX - PHX", "PHX - SJC", "SFO - DEN", "SAT - GDL", "GDL - QRO"]
+        //peopleImageArray = ["James.png", "Paul.png", "Imogene.png"]
+        itinerayArray = ["JOHNSINDHU SAJI 26MAY2019 BOM FRA.pdf", "JOHNSINDHU SAJI 28MAY2019 LAX PHX.pdf", "JOHNSINDHU SAJI 30MAY2019 PHX SJC.pdf", "JOHNSINDHU SAJI 02JUN2019 SFO DEN.pdf", "JOHNSINDHU SAJI 09JUN2019 SAT GDL.pdf", "SINDHU SAJI JOHN 110619.pdf"]
+        peopleDesignationArray = ["26th May, 2019", "28th May, 2019", "30th May, 2019", "02nd June, 2019", "09th June, 2019", "11th June, 2019"]
     }
     
     
@@ -39,8 +39,9 @@ class ItineraryViewController: UIViewController, UITableViewDataSource, UITableV
         let cell = tableView.dequeueReusableCell(withIdentifier: "ItineraryViewCellIdentifier", for: indexPath) as? ItineraryTableViewCell
         
         // Configure the cell...
-        cell?.titleLabel.text = peopleArray[indexPath.row] as! String
-        cell?.cellImgVw.image = UIImage(named: peopleImageArray[indexPath.row] as? String ?? "")
+        cell?.titleLabel.text = peopleArray[indexPath.row] as? String
+        //cell?.cellImgVw.image = UIImage(named: peopleImageArray[indexPath.row] as? String ?? "")
+        cell?.titleDescLabel.text = peopleDesignationArray[indexPath.row] as? String
         
         
         return cell!
@@ -55,7 +56,7 @@ class ItineraryViewController: UIViewController, UITableViewDataSource, UITableV
         tableView.deselectRow(at: indexPath, animated: false)
         let executiveDetailsVC = storyboard!.instantiateViewController(withIdentifier: "ItineraryDetailsViewController") as? ItineraryDetailsViewController
         executiveDetailsVC?.personPDFName = itinerayArray[indexPath.row] as! String
-        executiveDetailsVC?.pfImageName = peopleImageArray[indexPath.row] as! String
+        //executiveDetailsVC?.pfImageName = peopleImageArray[indexPath.row] as! String
         executiveDetailsVC?.pName = peopleArray[indexPath.row] as! String
         executiveDetailsVC?.pDesignation = peopleDesignationArray[indexPath.row] as! String
         if let executiveDetailsVC = executiveDetailsVC {

@@ -25,7 +25,7 @@ class ItineraryDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        profileImage.image = UIImage(named: pfImageName)
+        //profileImage.image = UIImage(named: pfImageName)
         personName.text = pName
         personDesignation.text = pDesignation
         let itineraryPdf = personPDFName

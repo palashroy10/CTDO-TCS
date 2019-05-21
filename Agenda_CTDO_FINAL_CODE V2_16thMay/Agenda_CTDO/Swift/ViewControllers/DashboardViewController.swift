@@ -33,9 +33,9 @@ class DashboardViewController: UIViewController, UITableViewDataSource, UITableV
         
         navigationController?.navigationBar.isHidden = true
         
-        titlesArray = ["Schedule", "About Us", "Locations", ]//Encumberence//"Itinerary","Executive","Feedback", "Relationship"
-        descArray = ["List of agenda items", "Overview of TATA & TCS, its businesses, values and commitments", "Visit locations details and culture", "Overall visit feedback", "USAA-TCS relationship details", "Translate signs to English"]//"Travel documents and accommodation", "USAA and TCS executives profile",
-        imagesArray = [UIImage(named: "alarmClock.png"), UIImage(named: "AboutUs.png"),  UIImage(named: "Location.png")] as? [UIImage]//, UIImage(named: "Itinerary.png"), UIImage(named: "Executive.png"),, UIImage(named: "Feedback.png"), UIImage(named: "relationship.png"), UIImage(named: "translate")
+        titlesArray = ["Schedule", "Itinerary", "Accomodation", "Locations", ]//Encumberence//"About Us","Executive","Feedback", "Relationship"
+        descArray = ["List of agenda items", "Travel documents ", "Visit locations details and culture", "Overall visit feedback", "US Accomodation details", "USAA-TCS relationship details", "Translate signs to English"]//"Travel documents ", "USAA and TCS executives profile","Overview of TATA & TCS, its businesses, values and commitments"
+        imagesArray = [UIImage(named: "alarmClock.png"), UIImage(named: "Itinerary.png"), UIImage(named: "Executive.png"), UIImage(named: "Location.png")] as? [UIImage]//, UIImage(named: "AboutUs.png"), UIImage(named: "Executive.png"),, UIImage(named: "Feedback.png"), UIImage(named: "relationship.png"), UIImage(named: "translate")
         
         //4th place for itin
     }
@@ -73,25 +73,31 @@ class DashboardViewController: UIViewController, UITableViewDataSource, UITableV
             if let scheduleVC = scheduleVC {
                 navigationController?.pushViewController(scheduleVC, animated: true)
             }
-        case 1:
-            let aboutUsVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AboutUsViewController") as? AboutUsViewController
-            
-            if let aboutUsVC = aboutUsVC {
-                navigationController?.pushViewController(aboutUsVC, animated: true)
-            }
+//        case 1:
+//            let aboutUsVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AboutUsViewController") as? AboutUsViewController
+//
+//            if let aboutUsVC = aboutUsVC {
+//                navigationController?.pushViewController(aboutUsVC, animated: true)
+//            }
 //        case 2:
 //            let executiveVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ExecutiveViewController") as? ExecutiveViewController
 //
 //            if let executiveVC = executiveVC {
 //                navigationController?.pushViewController(executiveVC, animated: true)
 //            }
-//        case 3:
-//            let itineraryVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ItineraryViewController") as? ItineraryViewController
-//
-//            if let itineraryVC = itineraryVC {
-//                navigationController?.pushViewController(itineraryVC, animated: true)
-//            }
+        case 1:
+            let itineraryVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ItineraryViewController") as? ItineraryViewController
+
+            if let itineraryVC = itineraryVC {
+                navigationController?.pushViewController(itineraryVC, animated: true)
+            }
         case 2:
+            let accoVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AccomodationViewController") as? AccomodationViewController
+            
+            if let accoVC = accoVC {
+                navigationController?.pushViewController(accoVC, animated: true)
+            }
+        case 3:
             let locationsVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "LocationsViewController") as? LocationsViewController
 
             if let locationsVC = locationsVC {
