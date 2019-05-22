@@ -145,7 +145,7 @@ class ScheduleViewController: UIViewController, UICollectionViewDelegate, UIColl
         if selectedIndexPath?.section == section {
             let scheduleData = selectedDateSchedule?.schedule[section]
 
-            if scheduleData?.name.count != nil && scheduleData?.desc.count != nil {
+            if scheduleData?.name.count != 0 && scheduleData?.desc.count != 0 {
                 rowCount = rowCount + 3
             } else if scheduleData?.name.count != 0 {
                 rowCount = rowCount + 2 // one header and 3 details like 1.descriptions 2. clock.
@@ -279,7 +279,7 @@ class ScheduleViewController: UIViewController, UICollectionViewDelegate, UIColl
                 (cell as? ScheduleDescriptionTableViewCell)?.meetingNameLabel.text = "Location"
                 (cell as? ScheduleDescriptionTableViewCell)?.meetingDescriptionLabel.text = scheduleData?.place
                 ((cell as? ScheduleDescriptionTableViewCell))?.iconImageView.image = (UIImage(named: "eventLocation"))
-            case 2:
+            case 4:
                 if scheduleData?.name.count != 0 {
                     (cell as? ScheduleDescriptionTableViewCell)?.meetingNameLabel.text = presenter
                     (cell as? ScheduleDescriptionTableViewCell)?.meetingDescriptionLabel.text = scheduleData?.name
@@ -289,7 +289,7 @@ class ScheduleViewController: UIViewController, UICollectionViewDelegate, UIColl
                     (cell as? ScheduleDescriptionTableViewCell)?.meetingDescriptionLabel.text = scheduleData?.desc
                     ((cell as? ScheduleDescriptionTableViewCell))?.iconImageView.image = (UIImage(named: "team"))
                 }*/
-            case 3:
+            case 2:
                 (cell as? ScheduleDescriptionTableViewCell)?.meetingNameLabel.text = "Description"
                 (cell as? ScheduleDescriptionTableViewCell)?.meetingDescriptionLabel.text = scheduleData?.desc
                 ((cell as? ScheduleDescriptionTableViewCell))?.iconImageView.image = (UIImage(named: "team"))

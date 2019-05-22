@@ -883,7 +883,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="7HL-HC-d2O">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="WIF-2Q-9GK"/>
                                 </constraints>
@@ -1449,7 +1449,7 @@ Home Schedule About Us Executive Itinerary </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="Mf2-Gs-NnM">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="N6S-eF-Pdd"/>
                                 </constraints>
@@ -1510,7 +1510,7 @@ Home Schedule About Us Executive Itinerary </string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="+1 (281) 546 - 7374" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAz-xL-kqK">
-                                                    <rect key="frame" x="80" y="42.5" width="131.5" height="19"/>
+                                                    <rect key="frame" x="78" y="42.5" width="131.5" height="19"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
                                                     <color key="textColor" red="0.43258081541889642" green="0.43355569595011811" blue="0.4484322412970102" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1535,7 +1535,7 @@ Home Schedule About Us Executive Itinerary </string>
                                                 <constraint firstAttribute="trailingMargin" secondItem="HHC-H3-fml" secondAttribute="trailing" constant="21" id="Skj-lU-FmF"/>
                                                 <constraint firstItem="2gk-fC-moN" firstAttribute="top" secondItem="Mqv-1m-nd3" secondAttribute="top" constant="21" id="emq-Pg-tFa"/>
                                                 <constraint firstItem="2gk-fC-moN" firstAttribute="leading" secondItem="Mqv-1m-nd3" secondAttribute="leading" constant="24" id="f33-0C-kjQ"/>
-                                                <constraint firstItem="PAz-xL-kqK" firstAttribute="leading" secondItem="2gk-fC-moN" secondAttribute="trailing" constant="27" id="sGu-Mr-1Wt"/>
+                                                <constraint firstItem="PAz-xL-kqK" firstAttribute="leading" secondItem="2gk-fC-moN" secondAttribute="trailing" constant="25" id="sGu-Mr-1Wt"/>
                                                 <constraint firstItem="rh1-b6-X6j" firstAttribute="leading" secondItem="2gk-fC-moN" secondAttribute="trailing" constant="26" id="wSG-Y2-6JV"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -1619,7 +1619,7 @@ Home Schedule About Us Executive Itinerary </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="EPe-0P-Qvb">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="ROL-AF-Sfx"/>
                                 </constraints>
@@ -1725,7 +1725,7 @@ Home Schedule About Us Executive Itinerary </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="BGF-Ll-hpo">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="115"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="115" id="A9h-9d-gc1"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="115" id="cLY-HZ-mya"/>
@@ -1912,7 +1912,7 @@ Home Schedule About Us Executive Itinerary </string>
                                 </connections>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="CiS-68-Lwk">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="104"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRt-PR-aL5">
                                 <rect key="frame" x="11" y="35" width="41" height="35"/>
@@ -2691,7 +2691,7 @@ Home Schedule About Us Executive Itinerary </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="YkH-e2-ZzQ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="115"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit locations and accomodation details" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="zmM-0d-qXe">
                                 <rect key="frame" x="76" y="75" width="289" height="21"/>
@@ -2812,7 +2812,7 @@ Home Schedule About Us Executive Itinerary </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topHeaderNew" translatesAutoresizingMaskIntoConstraints="NO" id="wpd-M6-Tme">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375.00000000000011" height="115"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit locations and accomodation details" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="laa-o8-zKP">
                                 <rect key="frame" x="73" y="65" width="289" height="21"/>

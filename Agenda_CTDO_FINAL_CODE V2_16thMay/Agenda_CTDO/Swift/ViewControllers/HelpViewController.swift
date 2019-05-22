@@ -42,10 +42,10 @@ class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        tcsNamesArray = ["Los Angeles", "Phoenix", "Santa Clara", "Denver", "Dallas", "San Antonio", "Guadalajara", "Queretaro", "Mexico City"]
+        tcsNamesArray = ["Los Angeles", "Phoenix", "San Jose", "Denver", "Dallas", "San Antonio", "Guadalajara", "Queretaro", "Mexico City"]
         ibmNamesArray = ["Girish Ratnam", "Vikram Tare", "Anand Nair"]
         hclNamesArray = ["Rajesh Srivastava", "Seshagiri Vardhanapu", "Aiyappan Sundarraj"]
-        tcsMobNumArray = ["Byju Kollon", "Shantaram", "Rakesh Kumar", "Pushkar Bharadwaj", "Ajit Mishra", "Shital Samant", "", "", "Ashul"]
+        tcsMobNumArray = ["Byju", "Shantharam", "Rakesh", "Pushkar", "Omkhar", "Shital", "Ashul", "Ashul", "Ashul"]
         ibmMobNumArray = ["+(91) 9176071235", "+(91) 8888816978", "+1 (210) 540-6791"]
         hclMobNumArray = ["+1 (214) 531-8956", "+1 (973) 652-7098", "+1 (210) 551-1543"]
         
@@ -92,23 +92,23 @@ class HelpViewController: UIViewController, UITableViewDataSource, UITableViewDe
         if segmentControl.selectedSegmentIndex == 0 {
             switch sender?.tag {
             case 0?:
-                contactNo = "dummy"
+                contactNo = "12108370112"
             case 1?:
-                contactNo = "dummy"
+                contactNo = "14846123142"
             case 2?:
-                contactNo = "dummy"
+                contactNo = "12096377431"
             case 3?:
-                contactNo = "dummy"
+                contactNo = "14246341640"
             case 4?:
-                contactNo = "15135057517"
+                contactNo = "12104149035"
             case 5?:
-                contactNo = "12106249179"
+                contactNo = "12107071951"
             case 6?:
-                contactNo = "dummy"
+                contactNo = "5213318450156"
             case 7?:
-                contactNo = "dummy"
+                contactNo = "5213318450156"
             case 8?:
-                contactNo = "dummy"
+                contactNo = "5213318450156"
             default:
                 break
             }

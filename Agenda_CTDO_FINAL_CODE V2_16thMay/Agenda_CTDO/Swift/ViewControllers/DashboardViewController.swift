@@ -34,8 +34,8 @@ class DashboardViewController: UIViewController, UITableViewDataSource, UITableV
         navigationController?.navigationBar.isHidden = true
         
         titlesArray = ["Schedule", "Itinerary", "Accomodation", "Locations", ]//Encumberence//"About Us","Executive","Feedback", "Relationship"
-        descArray = ["List of agenda items", "Travel documents ", "Visit locations details and culture", "Overall visit feedback", "US Accomodation details", "USAA-TCS relationship details", "Translate signs to English"]//"Travel documents ", "USAA and TCS executives profile","Overview of TATA & TCS, its businesses, values and commitments"
-        imagesArray = [UIImage(named: "alarmClock.png"), UIImage(named: "Itinerary.png"), UIImage(named: "Executive.png"), UIImage(named: "Location.png")] as? [UIImage]//, UIImage(named: "AboutUs.png"), UIImage(named: "Executive.png"),, UIImage(named: "Feedback.png"), UIImage(named: "relationship.png"), UIImage(named: "translate")
+        descArray = ["List of agenda items", "Travel documents", "US Accomodation details", "Visit locations details and culture"]//"Travel documents ", "USAA and TCS executives profile","Overview of TATA & TCS, its businesses, values and commitments",  "USAA-TCS relationship details"
+        imagesArray = [UIImage(named: "alarmClock.png"), UIImage(named: "Itinerary.png"), UIImage(named: "hotel.png"), UIImage(named: "Location.png")] as? [UIImage]//, UIImage(named: "AboutUs.png"), UIImage(named: "Executive.png"),, UIImage(named: "Feedback.png"), UIImage(named: "relationship.png"), UIImage(named: "translate")
         
         //4th place for itin
     }
